@@ -1,0 +1,138 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 367, 208
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тренажер"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Q",IDC_Q,31,108,26,21,WS_DISABLED
+    PUSHBUTTON      "W",IDC_W,61,108,26,21,WS_DISABLED
+    PUSHBUTTON      "E",IDC_E,91,108,26,21,WS_DISABLED
+    PUSHBUTTON      "R",IDC_R,121,108,26,21,WS_DISABLED
+    PUSHBUTTON      "T",IDC_T,151,108,26,21,WS_DISABLED
+    PUSHBUTTON      "Y",IDC_Y,181,108,26,21,WS_DISABLED
+    PUSHBUTTON      "U",IDC_U,211,108,26,21,WS_DISABLED
+    PUSHBUTTON      "I",IDC_I,241,108,26,21,WS_DISABLED
+    PUSHBUTTON      "O",IDC_O,271,108,26,21,WS_DISABLED
+    PUSHBUTTON      "P",IDC_P,301,108,26,21,WS_DISABLED
+    PUSHBUTTON      "A",IDC_A,43,132,26,21,WS_DISABLED
+    PUSHBUTTON      "S",IDC_S,73,132,26,21,WS_DISABLED
+    PUSHBUTTON      "D",IDC_D,103,132,26,21,WS_DISABLED
+    PUSHBUTTON      "F",IDC_F,133,132,26,21,WS_DISABLED
+    PUSHBUTTON      "G",IDC_G,163,132,26,21,WS_DISABLED
+    PUSHBUTTON      "H",IDC_H,193,132,26,21,WS_DISABLED
+    PUSHBUTTON      "K",IDC_K,253,132,26,21,WS_DISABLED
+    PUSHBUTTON      "J",IDC_J,223,132,26,21,WS_DISABLED
+    PUSHBUTTON      "L",IDC_L,283,132,26,21,WS_DISABLED
+    PUSHBUTTON      "Z",IDC_Z,60,156,26,21,WS_DISABLED
+    PUSHBUTTON      "X",IDC_X,90,156,26,21,WS_DISABLED
+    PUSHBUTTON      "C",IDC_C,120,156,26,21,WS_DISABLED
+    PUSHBUTTON      "V",IDC_V,150,156,26,21,WS_DISABLED
+    PUSHBUTTON      "B",IDC_B,180,156,26,21,WS_DISABLED
+    PUSHBUTTON      "N",IDC_N,210,156,26,21,WS_DISABLED
+    PUSHBUTTON      "M",IDC_M,240,156,26,21,WS_DISABLED
+    PUSHBUTTON      "ПРОБЕЛ",IDC_BUTTON27,120,180,144,21,WS_DISABLED
+    LTEXT           "Кол-во ошибок:",IDC_STATIC,13,55,54,8
+    LTEXT           "Кол-во времени: ",IDC_STATIC,10,79,60,8
+    EDITTEXT        IDC_EDIT1,6,6,356,35,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,69,52,45,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT3,70,76,58,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "НАЧАТЬ",IDC_BUTTON1,277,168,79,28
+    EDITTEXT        IDC_EDIT4,203,62,98,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
